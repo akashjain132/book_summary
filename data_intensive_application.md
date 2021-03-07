@@ -14,3 +14,19 @@ Data intensive application explain in details about database, Indexing, Replicat
       - stream processing
       - indexing
   
+Focus on
+   - Reliability
+   - Scalability
+   - Maintainability
+
+
+### Reliability
+
+ - The application performs the function that the user expected.
+ - It can tolerate the user making mistakes or using the software in unexpected ways.
+ - Its performance is good enough for the required use case, under the expected load and data volume.
+ - The system prevents any unauthorized access and abuse.
+
+The things that can go wrong are called faults, The Netflix introduce Chaos Monkey is an example of this approach. 
+
+A fault is usually defined as one component of the system deviating from its spec, whereas a failure is when the system as a whole stops providing the required service to the user.
